@@ -57,7 +57,7 @@
         <a-assets>
             <video src="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/afleet06/nando.github.io/master/fer.mp4"
                 preload="auto" id="vid" response-type="arraybuffer" loop
-                crossorigin webkit-playsinline autoplay muted playsinline>
+               crossOrigin="anonymous" playsinline webkitplaysinline autoplay controls muted >
             </video>
         </a-assets>
 
@@ -65,6 +65,7 @@
             videohandler
             type='nft' url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/afleet06/nando.github.io/master/nft'
            smooth="true" smoothcount="10" smoothtolerance="0.01" smooththreshold="4"
+	       
         >
             <a-video
                 src="#vid"
